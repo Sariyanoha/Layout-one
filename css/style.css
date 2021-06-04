@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+.bg{
+	background-color: #bebebe;
+}
+/* logo start here */
+.logo{
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 15px 0;
+}
+.logo h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	margin: 0;
+}
+/* logo end here */
+/* header start here */
+.header{
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0;
+}
+.header h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	margin: 0;
+}
+/* header end here */
+/* navigation start here */
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	margin:0 -30px;
+}
+.nav-item{
+	height: 50px;
+	width: 300px;
+	margin:0 30px;
+}
+/* navigation end here */
+.main-container{
+	display: flex;
+	justify-content: space-between;
+}
+/* about and sidebar start here */
+.about{
+	height: 800px;
+	width: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about h2{
+	font-size: 50px;
+	text-transform: capitalize;
+	margin: 0;
+}
+.sidebar{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.quick-link-one{
+	height: 350px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quick-link-one h2{
+	font-size: 35px;
+	text-transform: capitalize;
+	margin: 0;
+}
+.quick-link-two{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quick-link-two h2{
+	font-size: 35px;
+	text-transform: capitalize;
+	margin: 0;
+}
+/* about and sidebar end here */
+/* footer satrt here */
+.copyright{
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright h2{
+	font-size: 40px;
+	text-transform: capitalize;
+	margin: 0;
+}
+/* footer end here */
